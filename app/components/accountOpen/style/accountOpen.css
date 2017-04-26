@@ -1,0 +1,29 @@
+.btn_ao {
+    width: 30%;
+    /*height: 32.5%;*/
+    margin: 25.5% auto 0;
+    border: 3px solid rgba(247, 147, 30, .6);
+}
+
+.btn_ao a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.btn_ao img {
+    margin: 5% 0;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.btn_ao span {
+    display: block;
+    color: #000;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 240%;
+    outline: 3px solid #f7931e;
+    background-color: #f7931e;
+}

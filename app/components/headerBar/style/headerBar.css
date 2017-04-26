@@ -1,0 +1,55 @@
+.c_nav_bar {
+    font-size: 2rem;
+    line-height: 200%;
+    color: #b3b3b3;
+}
+
+.c_nav_bar>ul {
+    display: flex;
+}
+
+.c_nav_bar li {
+    flex: 1;
+    text-align: center;
+    border-bottom: 4px solid;
+}
+
+.c_nav_bar li.active {
+    color: #00a99d;
+}
+
+.c_nav_bar li>span {
+    padding-left: 2.5rem;
+}
+
+.c_nav_bar li:nth-child(1)>span {
+    background: url(../img/guide_icon1.png) 0 center no-repeat;
+}
+
+.c_nav_bar li.active:nth-child(1)>span {
+    background: url(../img/guide_icon1a.png) 0 center no-repeat;
+}
+
+.c_nav_bar li:nth-child(2)>span {
+    background: url(../img/guide_icon2.png) 0 center no-repeat;
+}
+
+.c_nav_bar li.active:nth-child(2)>span {
+    background: url(../img/guide_icon2a.png) 0 center no-repeat;
+}
+
+.c_nav_bar li:nth-child(3)>span {
+    background: url(../img/guide_icon3.png) 0 center no-repeat;
+}
+
+.c_nav_bar li.active:nth-child(3)>span {
+    background: url(../img/guide_icon3a.png) 0 center no-repeat;
+}
+
+.c_nav_bar li:nth-child(4)>span {
+    background: url(../img/guide_icon4.png) 0 center no-repeat;
+}
+
+.c_nav_bar li.active:nth-child(4)>span {
+    background: url(../img/guide_icon4a.png) 0 center no-repeat;
+}
